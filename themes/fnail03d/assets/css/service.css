@@ -1,0 +1,189 @@
+body{
+    text-align: left;
+    font-size: 14px;
+    line-height: 18px;
+
+    word-wrap: break-word;
+    text-rendering: optimizeLegibility;
+    -moz-font-feature-settings: 'liga';
+    -ms-font-feature-settings: 'liga';
+    -webkit-font-feature-settings: 'liga';
+    font-feature-settings: 'liga';
+    font-family: 'Lato', sans-serif;
+}
+.main-content{
+    background-color:#f5f5f5;
+    margin-top: 0px;
+}
+h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color:#fec168;
+}
+h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    font-style: normal;
+    line-height: 1;
+}
+h1.service-name{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    font-style: normal;
+    line-height: 1;
+    color:#fec168;
+    background-position: 5px 2px;
+    background-repeat: no-repeat;
+    padding-bottom: 15px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #fec168;
+    padding-right: 15px;
+}
+.sub_service h1.service-name {
+    font-size: 22px;
+}
+.sub_service h4{
+    font-size: 16px;
+}
+
+
+h4{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+     margin-top: 0px;
+     margin-bottom:0px;
+}
+hr{
+    border-top: 1px solid #fec168;
+    margin:15px 0;
+}
+.btn-default{
+    font-size: 12px;
+    background-color: #ed2869;
+    color: #ffffff;
+    border-color: #ed2869;
+}
+.btn-default:hover,
+.btn-default:active,
+.btn-default:focus,
+.btn-default.active,
+.btn-default.focus,
+.btn-default:active:hover{
+    background-color: #d22960;
+    color: #ffffff;
+    border-color: #d22960;
+}
+.btn-primary{
+    font-size: 12px;
+    background-color: #fec168;
+    color: #ffffff;
+    border-color: #fec168;
+}
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary.active,
+.btn-primary.focus,
+.btn-primary:active:hover{
+    background-color: #e28c0f;
+    border-color: #e28c0f;
+}
+.page-container{
+    background-color:#ffffff;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.price-item{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-bottom: 1px solid #f0f1f3;
+}
+.price-item-number{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight:bold;
+}
+.circle-service-image{
+    width: 100%;
+    border-radius:50%;
+    border: 3px solid #fec168;
+    display: inline-block;
+    margin-top: 20px;
+    display: block;
+    background-size: cover;
+    background-position: top left;
+    transition: transform 0.25s ease;
+    padding-bottom: 100%;
+}
+.rouded-service-image{
+    width: 180px;
+    height: 180px;
+    border-radius:5px;
+    background-image:url('../images/nailservice-picture-1.jpg');
+    display: inline-block;
+    margin-top: 20px;
+}
+.service-row{
+    padding-top: 20px;
+}
+.top-right{
+    text-align: left;
+}
+.detail-price-item{
+    display: flex;
+    width:100%;
+    padding-top: 8px;
+    padding-bottom: 5px;
+}
+.detail-price-dots{
+    flex: 1;
+    border-bottom: 1px dotted #000000;
+}
+.detail-price-number{
+    padding-left: 5px;
+    font-size: 16px;
+}
+.detail-price-name{
+    padding-right: 5px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.btn_service_book{
+    text-align: right;
+    margin-top: 40px;
+}
+.banner-page-list h2{
+    text-align: left;
+}
+@media (min-width: 768px){
+    .top-right{
+        text-align: right;
+    }
+}
+@media (min-width: 992px){
+}
+@media (min-width: 1200px){
+    .rouded-service-image{
+        width: 250px;
+        height: 250px;
+    }
+}
+@media (max-width: 767px){
+    .btn_service_book {
+        text-align: center;
+        margin-top: 15px;
+    }
+    .banner-page-list {
+        height: 140px;
+
+    }
+    .banner-page-list h2{
+        text-align: center;
+    }
+    .scroll_btn.btn_service_book{
+        margin-top: 10px;
+    }
+}

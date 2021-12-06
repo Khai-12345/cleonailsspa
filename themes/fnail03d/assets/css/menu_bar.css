@@ -1,0 +1,139 @@
+.menu-bar-mobile {
+    position: fixed;
+    height: 100%;
+    width: 300px;
+    background: #fff;
+    z-index: 9999999;
+    box-shadow: 1px 0px 1px #ccc;
+    overflow-y: scroll;
+    opacity: 0;
+    margin-left: -305px;
+    transition: all 0.5s ease-in-out 0s;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -ms-transition: all 0.5s ease-in-out 0s; 
+}
+.menu-bar-mobile-show{
+    margin-left: 0px;
+    opacity: 1;
+}
+.logo-menu{
+    float: left;
+    width: 100%;
+    background: #fff;
+}
+.logo-menu img{
+    width: 80%;
+    margin-bottom: 15px;
+}
+.rotate-menu{
+    transform:rotate(180deg);
+    top: 10px !important;
+}
+.menu-btn-show {
+    position: relative;
+    width: 28px;
+    height: 27px;
+    float: left;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.menu-btn-show .border-style {
+    width: 100%;
+    height: 4px;
+    background: #515151;
+    float: left;
+    margin-bottom: 5px;
+}
+.fixed-box .menu-btn-show .border-style{
+    background: #707070;
+}
+.box-login-logout {
+    float: left;
+    width: 100%;
+    position: relative;
+    background: #f9f9f9;
+}
+.boder-rotate {
+    position: absolute;
+    left: 50%;
+    height: 40px;
+    width: 1px;
+    background: #ebebeb;
+    transform: rotate(30deg);
+}
+.box-login-logout i{
+    margin-right: 6px;
+}
+.box-login-logout .left{
+    float: left;
+    width: 50%;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 15px;
+    font-size: 15px;
+    border-top: 1px solid #ebebeb;
+}
+@media screen and (min-width: 1200px) {
+    .menu-btn-show{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .menu-btn-show{
+        display: block;
+    }
+    .main-menu .custom_menu{
+        display: none;
+    }
+}
+@media screen and (max-width: 360px) {
+    .menu-bar-mobile{
+        width: 250px;
+    }
+}
+
+
+.menu-bar-mobile > ul > li{
+    float: left;
+    width: 100%;
+    position: relative;
+}
+.menu-bar-mobile > ul > li > a {
+    float: left;
+    width: 100%;
+    height: 40px;
+    line-height: 30px;
+    background: #fff;
+    margin-bottom: 1px;
+    padding: 5px 15px;
+    font-size: 14px;
+    border-top: 1px solid #ebebeb;
+}
+.menu-bar-mobile > ul > li > a:hover{
+    box-shadow: 0px 0px 2px #443333;
+}
+
+.menu-bar-mobile > ul > li > ul{
+    position: relative;
+    float: left;
+    width: 100%;
+    display: none;
+}
+.menu-bar-mobile > ul > li > ul >li > a {
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 5px 15px;
+}
+.menu-bar-mobile > ul > li > ul >li > a {
+    width: 100%;
+    /*height: 40px;*/
+    line-height: 30px;
+    background: #fff;
+    margin-bottom: 1px;
+    font-size: 14px;
+    border-top: 1px solid #ebebeb;
+}

@@ -1,0 +1,837 @@
+@media screen and (max-width: 1599px) {
+    .item-services-2 ul li p {
+        float: left;
+        width: 100%;
+        font-size: 14px;
+        color: #e6dede;
+    }
+}
+@media screen and (min-width: 1400px) {
+
+}
+@media screen and (max-width: 1399px) {
+    .ctn-contact-form-1 iframe{
+        width: 100%;
+        float: left;
+    }
+    .contact-link span{
+        color: #fff;
+    }
+    .banner-page-list {
+        overflow: hidden;
+        background-position: center center;
+        background-attachment: fixed;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1280px) {
+
+}
+@media screen and (min-width: 1200px) {
+
+}
+
+@media screen and (max-width: 1200px) {
+    .header-container .layout-header-2 {
+        float: left;
+        width: 100%;
+    }
+    .header-container .layout-header-3 {
+        float: left;
+        position: absolute;
+    }
+    .logo img {
+        width: 160px;
+        margin: 15px 0px;
+    }
+    .menu-btn-show {
+        display: block;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    .bg-about-us {
+        width: 100%;
+        padding-right: 50%;
+        float: left;
+        width: 100%;
+        background-size: 47% !important;
+    }
+    .layout-header-1{
+        margin: 0px;
+    }
+    .list-services-style-2 .item-services {
+        float: left;
+        width: 50%;
+        border-bottom: none;
+    }
+    .list-services-style-2 .img-item-services {
+        float: left;
+        width: 100%;
+        position: relative;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .list-services-style-2 .img-item-services a {
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        margin-right: 0px;
+        overflow: hidden;
+        border: 5px solid #d59ebf;
+        position: relative;
+        margin-top: 25px;
+        display: inline-block;
+        float: initial;
+    }
+    .list-services-style-2 .img-item-services span.sale-off {
+        position: absolute;
+        top: 24px;
+        right: 105px;
+    }
+    .list-services-style-2 .title-item-services {
+        padding-left: 0px;
+        text-align: center;
+    }
+    .menu-btn-show {
+        position: absolute;
+        width: 28px;
+        height: 27px;
+        float: left;
+        margin-right: 15px;
+        cursor: pointer;
+        z-index: 9999;
+        top: 30px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .gallery-index{
+        overflow: hidden;
+    }
+    .header-container {
+        float: left;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+    #owl-our-services{
+        margin: 20px 0px;
+    }
+    #owl-our-services .owl-prev {
+        position: absolute;
+        top: 26%;
+        left: -15px;
+        color: #fff;
+        font-size: 63px;
+    }
+    #owl-our-services .owl-next {
+        position: absolute;
+        top: 26%;
+        right: -15px;
+        color: #fff;
+        font-size: 63px;
+    }
+    .bg-about-us {
+        width: 100%;
+        padding-right: 40% !important;
+        float: left;
+        width: 100%;
+        background-size: 47% !important;
+    }
+    .bg-nail-gallery {
+        background-position: left bottom;
+        position: absolute;
+        left: 0px;
+        bottom: -100px;
+        width: 1000px;
+        height: 570px;
+        background-repeat: no-repeat;
+        z-index: 99;
+        background-size: 65%;
+    }
+    .ctn-gallery-instagram ul li {
+        width: 20%;
+        float: left;
+        padding: 3px;
+        background: #fff;
+    }
+    .content-item-about-us p{
+        padding-right: 0px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .news-page-stl .listnews .list-item {
+        float: left;
+        width: 50%;
+        padding: 0px 15px;
+        margin-bottom: 30px;
+    }
+    .logo-menu img {
+        width: 65%;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    .title-item-services .view-more {
+        float: left;
+    }
+    .bg-contact-form{
+        display: none;
+    }
+    .ctn-contact-form-1 .col-sm-6{
+        width: 100%;
+    }
+    .contact-form-1 {
+        float: left;
+        width: 100%;
+        background: #fefcfd;
+        padding: 10px 0px;
+        position: relative;
+        z-index: 9999;
+    }
+    .ctn-gallery-index .flex{
+        display: block;
+    }
+    .ctn-gallery-index .col-sm-5, .ctn-gallery-index .col-sm-7{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .gallery-img-big, .gallery-img-small {
+        float: left;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        max-height: initial;
+    }
+    .gallery-img-small a{
+        float: left;
+        width: 50%;
+        height: 210px;
+    }
+    .gallery-img-small a:first-child{
+        border: none;
+        border-right: 15px solid #fff;
+
+    }
+    .gallery-img-small a:last-child{
+        border: none;
+        border-left: 15px solid #fff;
+        display: none;
+    }
+    .bg-about-us {
+        width: 100%;
+        padding-right: 50%;
+        float: left;
+        width: 100%;
+        background-size: 47% !important;
+    }
+    .gallery-img-big a, .gallery-img-big a img {
+        float: left;
+        height: initial;
+        min-width: 100%;
+    }
+    .content-item-about-us {
+        float: left;
+        width: 100%;
+        padding: 0px;
+
+        margin-bottom: 30px;
+    }
+    .img-item-about-us {
+        float: left;
+        width: 100%;
+    }
+    .about-us-page-1 .item-about-us:nth-child(2n+1) .content-item-about-us {
+        float: right;
+        padding: 0px;
+
+        margin-bottom: 30px;
+    }
+
+
+    .banner-page-list {
+        overflow: hidden;
+        background-position: center center;
+        background-attachment: fixed;
+
+    }
+    .breakcrumb{
+        bottom: 0px;
+    }
+    .banner-page-list h2 {
+        bottom: inherit;
+        font-size: 35px;
+        margin-top: 60px;
+    }
+
+    .show-iframe, .width-show-iframe{
+        width: 97%;
+        height: 300px;
+    }
+    .logo-menu{
+        text-align: center;
+    }
+    .subscrible {
+        background-size: 100% !important;
+    }
+    .news-page-stl .listnews-style2 .list-item {
+        width: 100%;
+    }
+    .news-page-stl .listnews-style2 .list-content-detail p {
+        float: left;
+        width: 100%;
+        font-size: 15px;
+        font-weight: 300;
+        font-family: Roboto;
+        text-align: justify;
+        height: 87px;
+        overflow: hidden;
+    }
+    .list-services-style-2 .title-item-services .view-more {
+        float: initial;
+    }
+    .list-services-style-2 .img-item-services span.sale-off {
+        position: absolute;
+        top: 22px;
+        right: 49px;
+    }
+    .left-ctn-book .item-booking .group-select, .left-ctn-book .item-booking .btn-item-booking {
+        width: 100%;
+        float: left;
+        margin-right: 0px;
+        padding-right: 0px;
+        margin-bottom: 30px;
+        position: relative;
+    }
+    .left-ctn-book .item-booking:first-child > .group-select:after {
+        content: "";
+        height: 60px;
+        width: 1px;
+        background: #ccc;
+        position: absolute;
+        right: 14px;
+        top: 28px;
+        display: none;
+    }
+    .infor-booking{
+        display: block !important;
+    }
+    .item-services-2 ul li {
+        float: left;
+        width: 100%;
+        display: block; 
+        margin-bottom: 20px;
+        padding-bottom:10px;
+    }
+    .item-services-2 {
+        float: left;
+        width: 100%;
+        border-bottom:none;
+        padding-bottom: 25px;
+    }
+    .box-services-left{
+        padding: 0px;
+    }
+    .capcha {
+        position: relative;
+        width: 95%;
+    }
+    .submit_name_psw{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .login_form_area .box_area_login_v1{
+        padding: 0px;
+    }
+    .subscrible-form {
+        margin-top: 0px;
+    }
+     .subscrible {
+        background-position: 2px -20px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+}
+@media screen and (max-width:850px) {
+    .subscrible-form h2 {
+        font-family: 'uvn song sang';
+        display: inline-block;
+        font-size: 30px;
+        margin: 0px;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .subscrible {
+        float: left;
+        width: 100%;
+        margin-top: 0px;
+        height: initial;
+    }
+    .subscrible .item-subscrible {
+        width: 60%;
+        display: inline-block;
+        margin: 10px 20px;
+    }
+    .subscrible .style-button {
+        display: inline-block;
+        float: initial;
+        display: block;
+        text-align: center;
+        width: 120px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .banner-page-list h2 {
+        bottom: inherit;
+    }
+    .breakcrumb{
+        bottom: 0px;
+    }
+    .ctn-gallery-instagram ul li {
+        width: 25%;
+        float: left;
+        padding: 3px;
+        background: #fff;
+    }
+    .list-gallery {
+        margin-top: 30px; 
+        margin-bottom: 30px; 
+    }
+    .gallery-index {
+        padding-top: 20px;
+     padding-bottom: 0px; 
+    }
+    .title-standard h2 {
+        margin: 0px;
+    }
+}
+@media screen and (max-width : 767px) {
+    .bg-about-us {
+        width: 100%;
+        padding-right: 0%;
+        float: left;
+        width: 100%;
+        background-size: 100% !important;
+    }
+    .form-input-card label, .form-input-card input{
+        margin-bottom: 10px;
+    }
+    .form-input-card input {
+        min-width: 95%;
+    }
+    .form-input-name input {
+        min-width: 95%;
+        margin-bottom: 15px;
+    }
+    .banner-page-list h2 {
+        bottom: inherit;
+        margin-top: 35px;
+    }
+    .breakcrumb{
+        bottom: 50px;
+    }
+    .contact-page-1{
+        padding: 20px 0;
+    }
+    .gift-card-step-2 {
+        width: 93%;
+        margin: 40px auto;
+    }
+    .bg-nail-gallery {
+        background-position: left bottom;
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        width: 1000px;
+        height: 570px;
+        background-repeat: no-repeat;
+        z-index: 99;
+        background-size: 35%;
+    }
+    .news-page-stl .listnews .list {
+        margin-top: 0px; 
+        float: left;
+        width: 100%;
+    }
+    .news-page-stl .listnews-style2 .list-content-detail p {
+        float: left;
+        width: 100%;
+        font-size: 15px;
+        font-weight: 300;
+        font-family: Roboto;
+        text-align: justify;
+        height: initial;
+        overflow: hidden;
+    }
+    .list-services-style-2 .img-item-services span.sale-off {
+        position: absolute;
+        top: 22px;
+        right: 96px;
+    }
+    .header-container .layout-header-2 {
+        float: left;
+        width: 100%;
+        margin: 0px;
+    }
+    .bg-about-us, .gallery-index, .subscrible{
+        margin-top: 0px;
+    }
+    .box-services-left{
+        padding: 0px;
+    }
+    .item-services-2 ul li p {
+        float: left;
+        width: 100%;
+        font-size: 14px;
+        color: #e6dede;
+    }
+    .time-booking ul li span{
+        display: none;
+    }
+   
+}
+@media screen and (max-width : 700px) {
+    .tp-rightarrow, .tp-leftarrow {
+        background-size: 21px !important;
+        height: 44px !important;
+    }
+    .left-ctn-book{
+        float: left;
+        width: 100%;
+    }
+    .gift-card-step-3 {
+        float: left;
+        width: 86%;
+        padding: 20px;
+        border-radius: 5px;
+        border: 2px solid #999;
+        margin: 30px;
+    }
+}
+@media screen and (max-width : 640px) {
+    .menu-btn-show {
+        position: absolute;
+        width: 28px;
+        height: 27px;
+        margin-right: 15px;
+        cursor: pointer;
+        z-index: 9999;
+        top: 30px;
+        right: 0px;
+    }
+}
+@media screen and (max-width : 620px) {
+    .book-btn-care {
+        float: left;
+        width: 100%;
+        padding: 0 15px;
+    }
+    .group-select {
+        float: left;
+        width: 100%;
+        margin-right: 30px;
+    }
+    .box-date {
+        margin-right: 0px;
+        width: 100%;
+    }
+    .left-ctn-book{
+        float: left;
+        width: 100%;
+    }
+}
+@media screen and (max-width : 600px) {
+    #owl-our-services .owl-item {
+        padding: 0px;
+    }
+    #owl-our-services {
+        margin: 20px 0px;
+    }
+    .img-our-services {
+        float: left;
+        width: 100%;
+        height: initial;
+        margin-bottom: 10px;
+        overflow: hidden;
+        border: 13px solid rgba(255, 255, 255, 0.42);
+    }
+    .ctn-about-us p {
+        color: #666;
+        font-size: 14px;
+        line-height: 26px;
+        font-weight: 400;
+        text-align: justify;
+    }
+    .ctn-contact-form-1 {
+        float: left;
+        width: 100%;
+        padding: 20px 15px;
+        box-shadow: 0px 0px 9px #ccc;
+        position: relative;
+        z-index: 999;
+    }
+    .contact-footer {
+
+        padding: 10px;
+        padding-bottom: 100px;
+        position: relative;
+        z-index: 99;
+    }
+    .img-item-services {
+        width: 180px;
+        margin-right: 0px;
+        text-align: center;
+        margin: 0 auto;
+        height: 220px;
+        float: initial;
+        margin-bottom: 15px;
+    }
+    .title-item-services {
+        padding-left: 0px;
+        text-align: center;
+    }
+    .title-item-services .view-more {
+        float: initial;
+    }
+    .coupon-page-1 .col-xs-6{
+        width: 100%;
+    }
+    .subscrible .item-subscrible {
+        width: 90%;
+        display: inline-block;
+        margin: 10px 20px;
+    }
+    .img-our-services img {
+        height: initial;
+        max-width: initial;
+        min-width: 100%;
+        max-height: 301px;
+    }
+    .about-us .container{
+        padding: 0px;
+    }
+    .about-us .ctn-about-us{
+        padding: 0px 15px;
+    }
+    .about-us .business-hour{
+        padding: 0px 15px;
+    }
+    .bg-about-us {
+        width: 100%;
+        padding-right: 0% !important;
+        float: left;
+        width: 100%;
+        background-size: 100% !important;
+        margin-bottom: 0px;
+    }
+    .contact-form-1 .container {
+        position: relative;
+        z-index: 99;
+        padding: 0px;
+    }
+    .ctn-order-fixed {
+        padding: 0px 0px;
+        margin-top: 0px;
+        float: left;
+        width: 100%;
+    }
+   
+    .ctn-gallery-instagram ul li {
+        width: 33.333333%;
+        float: left;
+        padding: 3px;
+        background: #fff;
+    }
+    .content-shop-booking {
+        float: left;
+        width: 100%;
+        margin-top: 30px;
+        border-radius: 15px;
+        background: #F9F9F9;
+        padding: 15px;
+    }
+    .btn_login_social a{
+        width: 100%;
+
+    }
+    .btn_login_social .btn_facebook_v1{
+        margin-bottom: 15px;
+    }
+    .container {
+        padding-right: 15px; 
+        padding-left: 15px; 
+    }
+}
+
+@media screen and (max-width : 560px) {
+    .gallery-img-small a {
+        float: left;
+        width: 100%;
+        height: initial;
+        margin-bottom: 30px;
+    }
+    .gallery-img-small a:first-child, .gallery-img-small a:last-child{
+        border: none;
+    }
+    .ctn-gift-step-3 h2 {
+        clear: initial;
+        float: left;
+    }
+    .qr-img{
+        float: left;
+        width: 100%;
+        margin-top: 15px;
+    }
+    .qr-img img{
+        width: 100%;
+    }
+    .list-services-style-2 .img-item-services span.sale-off {
+        position: absolute;
+        top: 22px;
+        right: 46px;
+    }
+    .box-services-left {
+        float: left;
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .item-services-2 ul li a.view-more {
+        padding: 4px 16px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        font-size: 13px;
+        text-transform: uppercase;
+        float: right;
+    }
+    .item-services-2 ul li {
+        float: left;
+        width: 100%;
+        display: block;
+        margin-bottom: 15px;
+        position: relative;
+    }
+}
+
+
+@media screen and (max-width : 500px){
+    .business-hour ul li {
+        width: 100%;
+        float: left;
+    }
+    .cate-gallery ul li {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .video-page-1 .col-xs-6{
+        width: 100%;
+    }
+    .img-item-video img{
+        width: 100%;
+    }
+
+    .list-ticket .col-xs-6{
+        width:100%;
+    }
+    .btn-search {
+        float: left;
+        width: 100%;
+        height: 33px;
+        margin-top: 33px;
+        margin-left: 0px;
+        border: none;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    .list-services-style-2 .item-services {
+        float: left;
+        width: 100%;
+        border-bottom: none;
+    }
+    .list-services-style-2 .img-item-services span.sale-off {
+        position: absolute;
+        top: 22px;
+        right: 33%;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .list-gallery .col-xs-6{
+        padding-right: 7px;
+        padding-left: 7px;
+    }
+    .form-input-infor .width-50{
+        width: 100%;
+        padding-bottom: 0px;
+    }
+    .list-gallery-page-1 .col-xs-6{
+        padding-right: 7px;
+        padding-left: 7px;
+    }
+    .news-page-stl .listnews .list-item {
+        float: left;
+        width: 100%;
+        padding: 0px 15px;
+        margin-bottom: 30px;
+    }
+    .list-content-img {
+        float: left;
+        width: 100%;
+        height: initial;
+        overflow: initial;
+        position: relative;
+        margin-bottom: 10px;
+    }
+    .list-content-img img {
+        position: relative;
+        min-width: 100%;
+        height: initial;
+        max-width: 100%;
+    }
+    .news-page-stl .listnews-style2 .list-content-img {
+        float: left;
+        width: 100%;
+        height: initial;
+        overflow: initial;
+        position: relative;
+        margin-bottom: 10px;
+        left: 0px;
+    }
+    .news-page-stl .listnews-style2 .list-content-body {
+        padding-left: 0px;
+    }
+    .list-services-style-2 .img-item-services span.sale-off {
+        position: absolute;
+        top: 22px;
+        right: 28%;
+    }
+    .footer-center span spam {
+        width: 113px;
+        float: left;
+        text-align: left;
+    }
+}	
+@media (max-width: 420px) {
+
+    .am a, .pm a {
+        float: left;
+        padding: 7px 5px 5px 5px;
+        background: #ebebeb;
+        margin-right: 0px;
+        font-size: 14px;
+        margin-bottom: 0px;
+        /* width: 33.3333%; */
+        border: 5px solid #fff;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 640px) {
+
+}
+
+@media (max-width: 500px) {
+
+}
